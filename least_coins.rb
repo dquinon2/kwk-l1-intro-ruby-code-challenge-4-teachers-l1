@@ -1,7 +1,7 @@
 #write out your code here
 
 # def least_coins(cents)
-# 
+#
 # coins{
 #   :quarters => 25, :dimes => 10, :nickels => 5, :pennies => 1
 # }
@@ -9,9 +9,9 @@
 # end
 # coins.each {|value| puts "#{key} => #{value}"}
 # least_coins(cents)
+def coins(cents)
+  
 
-System.out.println("Enter number of cents (Negative value to quit):");
-int cents;
 cents = scan.nextInt();
 
 while (cents > 0 )
@@ -37,3 +37,4 @@ while (cents > 0 )
         cents -= 1;
     }
 }
+end
